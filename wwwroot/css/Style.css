@@ -1,0 +1,28 @@
+#foto{
+    border-radius: 50%;
+    width: 40%;
+}
+
+#img_dotnet{
+    width: 400px;
+}
+
+.seccion_bienvenida{
+    color: white;
+    padding: 85px 0 12rem 0;
+    font-size: 1.10rem;
+}
+
+.cabecera{
+    font-weight: bold;
+}
+
+.habilidades{
+    color: aqua;
+    font-size: 50px;
+}
+
+.habilidades ul{
+    list-style-type: none;
+    padding: 10px 0;
+}
