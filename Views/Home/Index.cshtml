@@ -32,7 +32,36 @@
     <link href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/@@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
-
+    
+    <style>
+        .tittle{
+            color: white;
+        }
+        .sidebar {
+            background-color: #181E4B;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .sidebar img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #181E4B;
+            padding-bottom: 5px;
+        }
+        .skill-item, .project-item {
+            margin-bottom: 10px;
+        }
+    </style>
 
 </head>
 
@@ -58,6 +87,83 @@
             <!-- ========== Topbar End ========== -->
 
 
+ <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 sidebar">
+                <img src="Images/pablo.webp" alt="Foto de Juan Pablo">
+                <h2 class="tittle">Juan Pablo Londoño Calle</h2>
+                <h4 class="tittle">21 años</h4>
+                <h3 class="tittle">COMPETENCIAS TÉCNICAS</h3>
+                <ul class="list-unstyled">
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>ASP.NET</li>
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>JavaScript</li>
+                    <li>Bases de datos relacionales</li>
+                    <li>Bases de datos no relacionales</li>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>RocketChat</li>
+                    <li>Github</li>
+                </ul>
+                <h3 class="tittle">COMPETENCIAS HUMANAS</h3>
+                <ul class="list-unstyled">
+                    <li>Comunicación asertiva</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Escucha activa</li>
+                    <li>Trabajo bajo presión</li>
+                    <li>Resiliencia</li>
+                </ul>
+            </div>
+            <!-- Main Content -->
+            <div class="col-md-9 main-content">
+                <section class="resume-section">
+                    <h2 class="section-title">Perfil</h2>
+                    <p>Desarrollador, asistente en desarrollo de software, con conocimientos básicos de redes, conocimientos básicos en DevOps, conocimientos básicos en inteligencia artificial, conocimientos básicos en aprendizaje automático, conocimientos básicos en machine learning, capaz de trabajar bajo presión, habilidad para la comunicación asertiva, proactivo y buena escucha.</p>
+                </section>
+                <section class="resume-section">
+                    <h2 class="section-title">Experiencia profesional</h2>
+                    <h5>Feeling Company / Enero 2022 - Diciembre 2022</h5>
+                    <p><em>Auxiliar Logístico</em></p>
+                    <ul>
+                        <li>Atención y asesoramiento a los clientes cuando necesitaran algún producto.</li>
+                        <li>Proceso de inventario en almacén de la empresa.</li>
+                        <li>Manejo de personal en el área de Logística.</li>
+                        <li>Asignar productos para las cajas.</li>
+                    </ul>
+                </section>
+                <section class="resume-section">
+                    <h2 class="section-title">Formación</h2>
+                    <h5>SENA / 2023 - Actualmente</h5>
+                    <p><em>Tecnología en análisis y desarrollo de sistemas de información</em></p>
+                    <h5>Institución Universitaria Pascual Bravo / 2021</h5>
+                    <p><em>Auxiliar en Análisis y Desarrollo de Software</em></p>
+                </section>
+                <section class="resume-section">
+                    <h2 class="section-title">Proyectos realizados en Riwi</h2>
+                    <ul>
+                        <li>Página para entrega de cursos PES</li>
+                        <li>Plugin para página de moodle para cuestionarios</li>
+                        <li>Panel de Moodle para acceso y edición de usuarios</li>
+                        <li>Aplicación de servicio web de moodle para sincronizar bloques y usuarios entre servidores</li>
+                        <li>Creación e implementación de canal RocketChat</li>
+                        <li>Integración de canal RocketChat en moodle</li>
+                        <li>Emisión de soporte a equipo de Mesa de ayuda SENA</li>
+                        <li>Configuración de VPN para Mesa de ayuda Virtual</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
             <!-- Footer Start -->
             <partial name="_Footer" />
